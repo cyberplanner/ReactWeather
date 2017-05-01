@@ -2,10 +2,10 @@ var express = require('express'); // require express
 var app     = express();          // create an app
 const PORT    = process.env.PORT || 4000; // set the port
 app.use(function(req, res, next){
-  if (req.headers['x-forwarded-proto'] === 'http') {
-    next();
-  } else {
+  if (req.headers['x-forwarded-proto'] === 'https') {
     res.redirect('http://' + req.hostname + req.url);
+  } else {
+    next();
   }
 });
 app.use(express.static('public'));// Share a directory
