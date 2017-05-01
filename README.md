@@ -1,4 +1,7 @@
-# Boilerplate REACT project
+# Weather REACT project
+
+A simple app built with REACT and uses OpenWeatherMap's API to fetch and display weather.
+
 ### Instructions:
 * Run `npm install`.
 * Run `webpack`.
