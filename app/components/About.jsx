@@ -14,7 +14,7 @@ var About = (props)=> {
   return (
     <div className="row">
       <div className="columns medium-12 large-10 small-centered">
-        <h1 className="text-center">About:</h1>
+        <h1 className="text-center page-title">About:</h1>
         <h4>Weather REACT project</h4>
         <p>A simple app built with REACT and uses OpenWeatherMap's API to fetch and display weather.</p>
         <a href="https://github.com/cyberplanner/ReactWeather">Github Repo</a> - Find the source code in this repo.
