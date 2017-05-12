@@ -23,6 +23,7 @@ var About = (props)=> {
           <ol>
             <li><a href="https://facebook.github.io/react/">React</a></li> - Facebook's JS framework
             <li><a href="http://openweathermap.org">Open Weather Map</a></li> - Open Weather Map Api
+            <li><a href="http://openweathermap.org">SCSS</a></li> - This app's custom styles were coded usign SassyCss preprocessor
           </ol>
         </div>
       </div>
